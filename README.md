@@ -1,4 +1,4 @@
-﻿# JBF â€” Job-Fit Benchmark
+﻿# JBF Judging Beyond Filters
 
 A deterministic candidate ranking pipeline for AI engineering and retrieval roles. Combines a keyword-evidence scoring model with a full **hybrid dense + lexical retrieval system** (E5 embeddings, FAISS, BM25, RRF) to rank candidates against a structured job description. Produces a ranked shortlist with per-candidate scores, strengths, weaknesses, and full diagnostic output files.
 
