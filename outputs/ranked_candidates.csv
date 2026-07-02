@@ -73,7 +73,7 @@ rank,candidate_id,current_title,years_experience,final_score
 72,CAND_0044222,AI Engineer,7.7,84.601
 73,CAND_0030031,AI Engineer,5.7,84.552
 74,CAND_0044883,AI Engineer,6.3,84.544
-75,CAND_0053695,Recommendation Systems Engineer,5.8,84.32
+75,CAND_0053695,Recommendation Systems Engineer,5.8,84.197
 76,CAND_0077285,Recommendation Systems Engineer,5.5,84.179
 77,CAND_0061339,Search Engineer,4.2,84.115
 78,CAND_0039383,Applied ML Engineer,7.1,84.057
@@ -186,8 +186,8 @@ rank,candidate_id,current_title,years_experience,final_score
 185,CAND_0037000,Search Engineer,2.7,76.585
 186,CAND_0035879,AI Research Engineer,4.5,76.529
 187,CAND_0079064,Senior Data Scientist,5.2,76.485
-188,CAND_0070485,Search Engineer,6.4,76.449
-189,CAND_0070333,AI Research Engineer,4.7,76.448
+188,CAND_0070333,AI Research Engineer,4.7,76.448
+189,CAND_0070485,Search Engineer,6.4,76.371
 190,CAND_0016163,Applied ML Engineer,6.7,76.366
 191,CAND_0067322,Data Scientist,4.3,76.308
 192,CAND_0027723,ML Engineer,4.2,76.293
@@ -258,8 +258,8 @@ rank,candidate_id,current_title,years_experience,final_score
 257,CAND_0063328,Computer Vision Engineer,4.6,73.45
 258,CAND_0094728,AI Specialist,6.5,73.424
 259,CAND_0088067,Backend Engineer,8.0,73.4
-260,CAND_0014063,AI Specialist,5.4,73.394
-261,CAND_0083852,Data Scientist,6.0,73.368
+260,CAND_0083852,Data Scientist,6.0,73.368
+261,CAND_0014063,AI Specialist,5.4,73.325
 262,CAND_0015643,AI Research Engineer,5.8,73.188
 263,CAND_0010541,AI Research Engineer,6.2,73.168
 264,CAND_0062413,AI Research Engineer,6.6,73.123
@@ -314,8 +314,8 @@ rank,candidate_id,current_title,years_experience,final_score
 313,CAND_0032216,ML Engineer,6.1,70.63
 314,CAND_0092468,Senior Software Engineer (ML),4.9,70.596
 315,CAND_0015065,AI Research Engineer,3.9,70.384
-316,CAND_0046108,ML Engineer,3.6,70.326
-317,CAND_0061257,Staff Machine Learning Engineer,8.0,70.316
+316,CAND_0061257,Staff Machine Learning Engineer,8.0,70.316
+317,CAND_0046108,ML Engineer,3.6,70.249
 318,CAND_0021491,AI Research Engineer,6.1,70.239
 319,CAND_0035653,Data Scientist,5.6,70.236
 320,CAND_0022127,Computer Vision Engineer,5.5,70.196
@@ -363,7 +363,7 @@ rank,candidate_id,current_title,years_experience,final_score
 362,CAND_0080534,ML Engineer,3.8,69.081
 363,CAND_0046793,ML Engineer,4.0,69.08
 364,CAND_0053605,Senior Software Engineer (ML),6.9,68.89
-365,CAND_0085557,Data Scientist,3.1,68.785
+365,CAND_0085557,Data Scientist,3.1,68.74
 366,CAND_0028527,AI Specialist,5.4,68.733
 367,CAND_0034164,Data Scientist,3.6,68.565
 368,CAND_0087006,Senior Software Engineer (ML),5.7,68.526
@@ -492,8 +492,8 @@ rank,candidate_id,current_title,years_experience,final_score
 491,CAND_0070658,Civil Engineer,10.9,66.008
 492,CAND_0098957,Civil Engineer,12.2,66.007
 493,CAND_0006334,Graphic Designer,10.4,66.005
-494,CAND_0023239,Graphic Designer,14.6,65.999
-495,CAND_0091275,Mechanical Engineer,9.7,65.995
+494,CAND_0091275,Mechanical Engineer,9.7,65.995
+495,CAND_0023239,Graphic Designer,14.6,65.947
 496,CAND_0030784,Data Scientist,4.4,65.943
 497,CAND_0073007,AI Specialist,5.8,65.942
 498,CAND_0017542,Civil Engineer,9.2,65.927
@@ -532,12 +532,12 @@ rank,candidate_id,current_title,years_experience,final_score
 531,CAND_0009482,Data Engineer,7.5,65.786
 532,CAND_0067654,Graphic Designer,9.8,65.781
 533,CAND_0006264,Mechanical Engineer,8.4,65.773
-534,CAND_0036561,Graphic Designer,12.1,65.746
-535,CAND_0052387,Business Analyst,12.1,65.743
-536,CAND_0084143,Business Analyst,12.8,65.737
-537,CAND_0011816,Business Analyst,13.5,65.725
-538,CAND_0065021,Graphic Designer,12.8,65.721
-539,CAND_0053823,Junior ML Engineer,4.8,65.72
+534,CAND_0052387,Business Analyst,12.1,65.743
+535,CAND_0084143,Business Analyst,12.8,65.737
+536,CAND_0011816,Business Analyst,13.5,65.725
+537,CAND_0065021,Graphic Designer,12.8,65.721
+538,CAND_0053823,Junior ML Engineer,4.8,65.72
+539,CAND_0036561,Graphic Designer,12.1,65.7
 540,CAND_0055413,Graphic Designer,14.4,65.695
 541,CAND_0002950,Graphic Designer,10.3,65.681
 542,CAND_0028318,Data Scientist,6.4,65.68
@@ -589,16 +589,16 @@ rank,candidate_id,current_title,years_experience,final_score
 588,CAND_0033987,ML Engineer,6.8,65.544
 589,CAND_0066623,Senior Data Engineer,6.3,65.54
 590,CAND_0086624,Graphic Designer,8.5,65.54
-591,CAND_0063471,Graphic Designer,10.1,65.531
-592,CAND_0093814,Business Analyst,11.9,65.525
-593,CAND_0097460,Project Manager,10.7,65.523
-594,CAND_0026922,Project Manager,12.5,65.522
-595,CAND_0070596,Project Manager,8.7,65.519
-596,CAND_0095568,Project Manager,10.5,65.516
-597,CAND_0014311,Business Analyst,9.8,65.515
-598,CAND_0090472,Business Analyst,14.4,65.508
-599,CAND_0006922,Graphic Designer,9.3,65.498
-600,CAND_0097059,Project Manager,11.8,65.495
+591,CAND_0093814,Business Analyst,11.9,65.525
+592,CAND_0097460,Project Manager,10.7,65.523
+593,CAND_0026922,Project Manager,12.5,65.522
+594,CAND_0070596,Project Manager,8.7,65.519
+595,CAND_0014311,Business Analyst,9.8,65.515
+596,CAND_0090472,Business Analyst,14.4,65.508
+597,CAND_0006922,Graphic Designer,9.3,65.498
+598,CAND_0095568,Project Manager,10.5,65.495
+599,CAND_0097059,Project Manager,11.8,65.495
+600,CAND_0063471,Graphic Designer,10.1,65.488
 601,CAND_0073012,Project Manager,11.5,65.487
 602,CAND_0025939,Data Scientist,4.4,65.483
 603,CAND_0084442,Project Manager,13.0,65.47
@@ -818,20 +818,20 @@ rank,candidate_id,current_title,years_experience,final_score
 817,CAND_0066536,HR Manager,9.0,64.421
 818,CAND_0051669,Sales Executive,8.8,64.419
 819,CAND_0027138,HR Manager,12.6,64.417
-820,CAND_0028358,Accountant,13.3,64.417
-821,CAND_0017575,Operations Manager,12.9,64.415
-822,CAND_0063149,Sales Executive,14.4,64.415
-823,CAND_0038872,Marketing Manager,9.4,64.412
-824,CAND_0011478,Marketing Manager,10.9,64.407
-825,CAND_0075318,Operations Manager,9.0,64.407
-826,CAND_0074578,Marketing Manager,12.4,64.405
-827,CAND_0047492,ML Engineer,4.8,64.401
-828,CAND_0096600,Marketing Manager,9.9,64.4
-829,CAND_0017718,Operations Manager,11.8,64.399
-830,CAND_0046871,HR Manager,14.8,64.399
-831,CAND_0046955,Customer Support,14.3,64.398
-832,CAND_0005269,Senior Software Engineer (ML),6.1,64.396
-833,CAND_0052482,Marketing Manager,11.5,64.396
+820,CAND_0017575,Operations Manager,12.9,64.415
+821,CAND_0063149,Sales Executive,14.4,64.415
+822,CAND_0038872,Marketing Manager,9.4,64.412
+823,CAND_0011478,Marketing Manager,10.9,64.407
+824,CAND_0075318,Operations Manager,9.0,64.407
+825,CAND_0074578,Marketing Manager,12.4,64.405
+826,CAND_0047492,ML Engineer,4.8,64.401
+827,CAND_0096600,Marketing Manager,9.9,64.4
+828,CAND_0017718,Operations Manager,11.8,64.399
+829,CAND_0046871,HR Manager,14.8,64.399
+830,CAND_0046955,Customer Support,14.3,64.398
+831,CAND_0005269,Senior Software Engineer (ML),6.1,64.396
+832,CAND_0052482,Marketing Manager,11.5,64.396
+833,CAND_0028358,Accountant,13.3,64.395
 834,CAND_0020015,Marketing Manager,12.6,64.39
 835,CAND_0074814,Marketing Manager,8.3,64.387
 836,CAND_0071139,HR Manager,8.3,64.386
@@ -1333,38 +1333,38 @@ rank,candidate_id,current_title,years_experience,final_score
 1332,CAND_0084283,Junior ML Engineer,3.6,61.522
 1333,CAND_0071383,HR Manager,5.6,61.52
 1334,CAND_0079688,Senior Software Engineer (ML),3.3,61.518
-1335,CAND_0088354,Junior ML Engineer,6.5,61.517
-1336,CAND_0060832,Mechanical Engineer,12.6,61.504
-1337,CAND_0034456,Analytics Engineer,6.2,61.503
-1338,CAND_0018210,Business Analyst,10.0,61.501
-1339,CAND_0039691,Business Analyst,9.1,61.496
-1340,CAND_0011856,Business Analyst,14.7,61.493
-1341,CAND_0054845,Accountant,7.5,61.489
-1342,CAND_0044773,Project Manager,8.3,61.486
-1343,CAND_0069043,Graphic Designer,14.1,61.485
-1344,CAND_0002154,Business Analyst,12.1,61.484
-1345,CAND_0012059,Project Manager,12.9,61.484
-1346,CAND_0022663,Project Manager,13.6,61.481
-1347,CAND_0097684,Project Manager,11.4,61.475
-1348,CAND_0063718,Business Analyst,11.0,61.474
-1349,CAND_0010694,Accountant,5.7,61.472
-1350,CAND_0050222,Project Manager,12.6,61.472
-1351,CAND_0008623,Business Analyst,12.0,61.471
-1352,CAND_0025607,Business Analyst,13.6,61.471
-1353,CAND_0026610,Computer Vision Engineer,6.4,61.469
-1354,CAND_0077096,Graphic Designer,12.3,61.463
-1355,CAND_0003802,Software Engineer,5.7,61.462
-1356,CAND_0044696,Computer Vision Engineer,3.9,61.461
-1357,CAND_0002356,Project Manager,11.8,61.458
-1358,CAND_0074824,Project Manager,9.7,61.455
-1359,CAND_0096391,Business Analyst,9.8,61.455
-1360,CAND_0025042,Content Writer,6.3,61.454
-1361,CAND_0060802,Civil Engineer,11.2,61.454
-1362,CAND_0012697,Project Manager,12.4,61.453
-1363,CAND_0075062,Customer Support,7.2,61.453
-1364,CAND_0094592,Project Manager,11.5,61.451
-1365,CAND_0014180,Business Analyst,9.6,61.447
-1366,CAND_0073593,Graphic Designer,9.1,61.447
+1335,CAND_0060832,Mechanical Engineer,12.6,61.504
+1336,CAND_0034456,Analytics Engineer,6.2,61.503
+1337,CAND_0018210,Business Analyst,10.0,61.501
+1338,CAND_0039691,Business Analyst,9.1,61.496
+1339,CAND_0011856,Business Analyst,14.7,61.493
+1340,CAND_0054845,Accountant,7.5,61.489
+1341,CAND_0044773,Project Manager,8.3,61.486
+1342,CAND_0069043,Graphic Designer,14.1,61.485
+1343,CAND_0002154,Business Analyst,12.1,61.484
+1344,CAND_0012059,Project Manager,12.9,61.484
+1345,CAND_0022663,Project Manager,13.6,61.481
+1346,CAND_0097684,Project Manager,11.4,61.475
+1347,CAND_0063718,Business Analyst,11.0,61.474
+1348,CAND_0010694,Accountant,5.7,61.472
+1349,CAND_0050222,Project Manager,12.6,61.472
+1350,CAND_0008623,Business Analyst,12.0,61.471
+1351,CAND_0025607,Business Analyst,13.6,61.471
+1352,CAND_0026610,Computer Vision Engineer,6.4,61.469
+1353,CAND_0077096,Graphic Designer,12.3,61.463
+1354,CAND_0003802,Software Engineer,5.7,61.462
+1355,CAND_0044696,Computer Vision Engineer,3.9,61.461
+1356,CAND_0002356,Project Manager,11.8,61.458
+1357,CAND_0074824,Project Manager,9.7,61.455
+1358,CAND_0096391,Business Analyst,9.8,61.455
+1359,CAND_0025042,Content Writer,6.3,61.454
+1360,CAND_0060802,Civil Engineer,11.2,61.454
+1361,CAND_0012697,Project Manager,12.4,61.453
+1362,CAND_0075062,Customer Support,7.2,61.453
+1363,CAND_0094592,Project Manager,11.5,61.451
+1364,CAND_0014180,Business Analyst,9.6,61.447
+1365,CAND_0073593,Graphic Designer,9.1,61.447
+1366,CAND_0088354,Junior ML Engineer,6.5,61.446
 1367,CAND_0063826,Project Manager,8.1,61.444
 1368,CAND_0092331,Project Manager,8.9,61.441
 1369,CAND_0047385,ML Engineer,3.7,61.44
@@ -3167,7 +3167,7 @@ rank,candidate_id,current_title,years_experience,final_score
 3166,CAND_0086154,Data Scientist,6.8,54.76
 3167,CAND_0092596,AI Specialist,6.9,54.76
 3168,CAND_0099825,Junior ML Engineer,5.7,54.76
-3169,CAND_0016473,Project Manager,10.7,54.756
+3169,CAND_0016473,Project Manager,10.7,54.735
 3170,CAND_0033455,Senior Software Engineer,5.5,54.734
 3171,CAND_0024159,Mechanical Engineer,3.8,54.722
 3172,CAND_0048584,Business Analyst,8.0,54.717
@@ -3184,10 +3184,10 @@ rank,candidate_id,current_title,years_experience,final_score
 3183,CAND_0088842,Analytics Engineer,6.3,54.662
 3184,CAND_0040274,Backend Engineer,5.2,54.66
 3185,CAND_0099844,Business Analyst,12.4,54.659
-3186,CAND_0022615,Operations Manager,8.1,54.654
-3187,CAND_0063117,Customer Support,9.3,54.642
-3188,CAND_0013163,Business Analyst,15.0,54.641
-3189,CAND_0026716,Computer Vision Engineer,5.6,54.639
+3186,CAND_0063117,Customer Support,9.3,54.642
+3187,CAND_0013163,Business Analyst,15.0,54.641
+3188,CAND_0026716,Computer Vision Engineer,5.6,54.639
+3189,CAND_0022615,Operations Manager,8.1,54.63
 3190,CAND_0035980,Content Writer,11.1,54.629
 3191,CAND_0073915,Business Analyst,9.0,54.629
 3192,CAND_0078508,AI Research Engineer,5.2,54.625
@@ -3406,23 +3406,23 @@ rank,candidate_id,current_title,years_experience,final_score
 3405,CAND_0003222,Operations Manager,12.3,54.121
 3406,CAND_0029987,Marketing Manager,10.5,54.113
 3407,CAND_0097392,Content Writer,13.3,54.11
-3408,CAND_0075849,HR Manager,9.2,54.098
-3409,CAND_0076588,Content Writer,10.7,54.095
-3410,CAND_0070853,Content Writer,14.1,54.094
-3411,CAND_0070987,Operations Manager,13.8,54.094
-3412,CAND_0031118,Sales Executive,11.1,54.09
-3413,CAND_0096941,HR Manager,9.8,54.09
-3414,CAND_0039687,HR Manager,9.0,54.081
-3415,CAND_0034849,AI Research Engineer,3.1,54.08
-3416,CAND_0075504,Junior ML Engineer,3.0,54.08
-3417,CAND_0078066,Analytics Engineer,6.7,54.08
-3418,CAND_0063915,Graphic Designer,5.7,54.077
-3419,CAND_0065798,Graphic Designer,6.3,54.074
-3420,CAND_0005477,ML Engineer,6.2,54.073
-3421,CAND_0039517,Sales Executive,9.4,54.072
-3422,CAND_0009039,HR Manager,11.4,54.067
-3423,CAND_0021718,Accountant,9.0,54.066
-3424,CAND_0048910,Analytics Engineer,7.6,54.064
+3408,CAND_0076588,Content Writer,10.7,54.095
+3409,CAND_0070853,Content Writer,14.1,54.094
+3410,CAND_0070987,Operations Manager,13.8,54.094
+3411,CAND_0031118,Sales Executive,11.1,54.09
+3412,CAND_0096941,HR Manager,9.8,54.09
+3413,CAND_0039687,HR Manager,9.0,54.081
+3414,CAND_0034849,AI Research Engineer,3.1,54.08
+3415,CAND_0075504,Junior ML Engineer,3.0,54.08
+3416,CAND_0078066,Analytics Engineer,6.7,54.08
+3417,CAND_0063915,Graphic Designer,5.7,54.077
+3418,CAND_0065798,Graphic Designer,6.3,54.074
+3419,CAND_0005477,ML Engineer,6.2,54.073
+3420,CAND_0039517,Sales Executive,9.4,54.072
+3421,CAND_0009039,HR Manager,11.4,54.067
+3422,CAND_0021718,Accountant,9.0,54.066
+3423,CAND_0048910,Analytics Engineer,7.6,54.064
+3424,CAND_0075849,HR Manager,9.2,54.058
 3425,CAND_0000683,Graphic Designer,6.2,54.053
 3426,CAND_0060861,Accountant,9.3,54.05
 3427,CAND_0088620,Backend Engineer,2.4,54.05
@@ -4352,8 +4352,8 @@ rank,candidate_id,current_title,years_experience,final_score
 4351,CAND_0082248,Backend Engineer,4.5,51.48
 4352,CAND_0084289,Senior Software Engineer,6.5,51.48
 4353,CAND_0033385,HR Manager,6.0,51.476
-4354,CAND_0013956,Accountant,7.1,51.473
-4355,CAND_0079038,Graphic Designer,4.7,51.471
+4354,CAND_0079038,Graphic Designer,4.7,51.471
+4355,CAND_0013956,Accountant,7.1,51.453
 4356,CAND_0014188,Junior ML Engineer,3.4,51.44
 4357,CAND_0036114,HR Manager,7.9,51.439
 4358,CAND_0002140,Sales Executive,5.8,51.42
@@ -4603,17 +4603,17 @@ rank,candidate_id,current_title,years_experience,final_score
 4602,CAND_0092961,Software Engineer,7.8,50.76
 4603,CAND_0094845,Full Stack Developer,7.0,50.76
 4604,CAND_0098184,Analytics Engineer,6.8,50.76
-4605,CAND_0017590,AI Research Engineer,5.1,50.759
-4606,CAND_0071544,Computer Vision Engineer,5.0,50.757
-4607,CAND_0075556,Sales Executive,14.1,50.756
-4608,CAND_0064664,ML Engineer,4.4,50.755
-4609,CAND_0084290,Business Analyst,13.1,50.742
-4610,CAND_0099121,Content Writer,13.4,50.738
-4611,CAND_0050146,AI Research Engineer,3.2,50.734
-4612,CAND_0008981,Accountant,14.2,50.73
-4613,CAND_0043051,Senior Software Engineer,2.2,50.73
-4614,CAND_0051133,Senior Software Engineer,2.7,50.73
-4615,CAND_0065868,Content Writer,9.5,50.714
+4605,CAND_0071544,Computer Vision Engineer,5.0,50.757
+4606,CAND_0075556,Sales Executive,14.1,50.756
+4607,CAND_0064664,ML Engineer,4.4,50.755
+4608,CAND_0084290,Business Analyst,13.1,50.742
+4609,CAND_0099121,Content Writer,13.4,50.738
+4610,CAND_0050146,AI Research Engineer,3.2,50.734
+4611,CAND_0008981,Accountant,14.2,50.73
+4612,CAND_0043051,Senior Software Engineer,2.2,50.73
+4613,CAND_0051133,Senior Software Engineer,2.7,50.73
+4614,CAND_0065868,Content Writer,9.5,50.714
+4615,CAND_0017590,AI Research Engineer,5.1,50.708
 4616,CAND_0073961,Senior Data Engineer,3.5,50.7
 4617,CAND_0056340,Backend Engineer,2.4,50.69
 4618,CAND_0034177,Senior Software Engineer (ML),3.6,50.688
@@ -5194,23 +5194,23 @@ rank,candidate_id,current_title,years_experience,final_score
 5193,CAND_0081145,Sales Executive,5.7,49.14
 5194,CAND_0094179,Content Writer,5.8,49.14
 5195,CAND_0094619,Accountant,7.3,49.14
-5196,CAND_0025811,HR Manager,4.1,49.11
-5197,CAND_0007177,HR Manager,4.0,49.109
-5198,CAND_0084718,HR Manager,4.9,49.101
-5199,CAND_0012695,.NET Developer,3.6,49.1
-5200,CAND_0015383,.NET Developer,4.1,49.1
-5201,CAND_0016846,Full Stack Developer,3.4,49.1
-5202,CAND_0031148,Java Developer,3.7,49.1
-5203,CAND_0038131,Software Engineer,3.3,49.1
-5204,CAND_0039778,DevOps Engineer,3.7,49.1
-5205,CAND_0055724,Frontend Engineer,4.4,49.1
-5206,CAND_0062837,Software Engineer,3.2,49.1
-5207,CAND_0070937,Software Engineer,4.7,49.1
-5208,CAND_0080000,Full Stack Developer,3.5,49.1
-5209,CAND_0094262,Java Developer,3.7,49.1
-5210,CAND_0095266,Mobile Developer,3.6,49.1
-5211,CAND_0097209,DevOps Engineer,4.9,49.1
-5212,CAND_0097291,Mobile Developer,3.9,49.1
+5196,CAND_0007177,HR Manager,4.0,49.109
+5197,CAND_0084718,HR Manager,4.9,49.101
+5198,CAND_0012695,.NET Developer,3.6,49.1
+5199,CAND_0015383,.NET Developer,4.1,49.1
+5200,CAND_0016846,Full Stack Developer,3.4,49.1
+5201,CAND_0031148,Java Developer,3.7,49.1
+5202,CAND_0038131,Software Engineer,3.3,49.1
+5203,CAND_0039778,DevOps Engineer,3.7,49.1
+5204,CAND_0055724,Frontend Engineer,4.4,49.1
+5205,CAND_0062837,Software Engineer,3.2,49.1
+5206,CAND_0070937,Software Engineer,4.7,49.1
+5207,CAND_0080000,Full Stack Developer,3.5,49.1
+5208,CAND_0094262,Java Developer,3.7,49.1
+5209,CAND_0095266,Mobile Developer,3.6,49.1
+5210,CAND_0097209,DevOps Engineer,4.9,49.1
+5211,CAND_0097291,Mobile Developer,3.9,49.1
+5212,CAND_0025811,HR Manager,4.1,49.069
 5213,CAND_0011208,Data Scientist,6.0,49.066
 5214,CAND_0018688,Sales Executive,4.7,49.064
 5215,CAND_0065151,Senior Data Engineer,4.5,49.063
@@ -5697,25 +5697,25 @@ rank,candidate_id,current_title,years_experience,final_score
 5696,CAND_0051997,Business Analyst,7.9,47.56
 5697,CAND_0086039,Business Analyst,6.7,47.56
 5698,CAND_0059145,Analytics Engineer,7.9,47.548
-5699,CAND_0063424,Business Analyst,14.0,47.538
-5700,CAND_0094593,Customer Support,5.9,47.53
-5701,CAND_0000354,Analytics Engineer,6.3,47.52
-5702,CAND_0000440,Software Engineer,7.5,47.52
-5703,CAND_0015160,Software Engineer,7.5,47.52
-5704,CAND_0018282,Backend Engineer,6.9,47.52
-5705,CAND_0019096,Data Analyst,7.9,47.52
-5706,CAND_0033650,Junior ML Engineer,4.2,47.52
-5707,CAND_0044293,Data Analyst,6.2,47.52
-5708,CAND_0056351,Backend Engineer,7.2,47.52
-5709,CAND_0060419,Data Analyst,7.2,47.52
-5710,CAND_0064427,Analytics Engineer,6.6,47.52
-5711,CAND_0070541,Data Analyst,7.5,47.52
-5712,CAND_0078171,Data Analyst,7.9,47.52
-5713,CAND_0094251,Senior Software Engineer,7.2,47.52
-5714,CAND_0099537,Senior Data Engineer,5.0,47.52
-5715,CAND_0055960,AI Specialist,4.9,47.516
-5716,CAND_0043359,Sales Executive,5.9,47.51
-5717,CAND_0075980,Content Writer,5.4,47.501
+5699,CAND_0094593,Customer Support,5.9,47.53
+5700,CAND_0000354,Analytics Engineer,6.3,47.52
+5701,CAND_0000440,Software Engineer,7.5,47.52
+5702,CAND_0015160,Software Engineer,7.5,47.52
+5703,CAND_0018282,Backend Engineer,6.9,47.52
+5704,CAND_0019096,Data Analyst,7.9,47.52
+5705,CAND_0033650,Junior ML Engineer,4.2,47.52
+5706,CAND_0044293,Data Analyst,6.2,47.52
+5707,CAND_0056351,Backend Engineer,7.2,47.52
+5708,CAND_0060419,Data Analyst,7.2,47.52
+5709,CAND_0064427,Analytics Engineer,6.6,47.52
+5710,CAND_0070541,Data Analyst,7.5,47.52
+5711,CAND_0078171,Data Analyst,7.9,47.52
+5712,CAND_0094251,Senior Software Engineer,7.2,47.52
+5713,CAND_0099537,Senior Data Engineer,5.0,47.52
+5714,CAND_0055960,AI Specialist,4.9,47.516
+5715,CAND_0043359,Sales Executive,5.9,47.51
+5716,CAND_0075980,Content Writer,5.4,47.501
+5717,CAND_0063424,Business Analyst,14.0,47.498
 5718,CAND_0000201,Marketing Manager,14.1,47.49
 5719,CAND_0001645,Customer Support,12.3,47.49
 5720,CAND_0010348,Content Writer,14.6,47.49
@@ -6466,18 +6466,18 @@ rank,candidate_id,current_title,years_experience,final_score
 6465,CAND_0009627,Senior Software Engineer,2.8,45.95
 6466,CAND_0042631,Software Engineer,2.7,45.95
 6467,CAND_0073989,Data Engineer,2.9,45.95
-6468,CAND_0087412,HR Manager,2.7,45.925
-6469,CAND_0025662,Software Engineer,3.9,45.92
-6470,CAND_0037396,Backend Engineer,4.4,45.92
-6471,CAND_0043351,Content Writer,5.8,45.92
-6472,CAND_0055061,Data Engineer,3.9,45.92
-6473,CAND_0056010,Accountant,5.9,45.92
-6474,CAND_0064821,Content Writer,5.5,45.92
-6475,CAND_0073860,Software Engineer,4.5,45.92
-6476,CAND_0074674,Analytics Engineer,3.2,45.92
-6477,CAND_0074860,Analytics Engineer,3.7,45.92
-6478,CAND_0087431,Data Analyst,2.7,45.91
-6479,CAND_0091428,Data Engineer,2.5,45.91
+6468,CAND_0025662,Software Engineer,3.9,45.92
+6469,CAND_0037396,Backend Engineer,4.4,45.92
+6470,CAND_0043351,Content Writer,5.8,45.92
+6471,CAND_0055061,Data Engineer,3.9,45.92
+6472,CAND_0056010,Accountant,5.9,45.92
+6473,CAND_0064821,Content Writer,5.5,45.92
+6474,CAND_0073860,Software Engineer,4.5,45.92
+6475,CAND_0074674,Analytics Engineer,3.2,45.92
+6476,CAND_0074860,Analytics Engineer,3.7,45.92
+6477,CAND_0087431,Data Analyst,2.7,45.91
+6478,CAND_0091428,Data Engineer,2.5,45.91
+6479,CAND_0087412,HR Manager,2.7,45.904
 6480,CAND_0096222,HR Manager,10.3,45.901
 6481,CAND_0026913,AI Specialist,3.9,45.89
 6482,CAND_0096354,Sales Executive,2.4,45.883
@@ -10615,39 +10615,39 @@ rank,candidate_id,current_title,years_experience,final_score
 10614,CAND_0085274,Frontend Engineer,2.9,38.63
 10615,CAND_0095933,Software Engineer,2.2,38.63
 10616,CAND_0097485,.NET Developer,2.1,38.63
-10617,CAND_0030155,Data Scientist,5.6,38.592
-10618,CAND_0091908,Senior Software Engineer,2.1,38.59
-10619,CAND_0007422,Mobile Developer,8.9,38.58
-10620,CAND_0011748,Full Stack Developer,8.8,38.58
-10621,CAND_0016931,Full Stack Developer,8.4,38.58
-10622,CAND_0019701,DevOps Engineer,8.2,38.58
-10623,CAND_0021266,Full Stack Developer,8.3,38.58
-10624,CAND_0025544,Mobile Developer,9.3,38.58
-10625,CAND_0026380,Java Developer,9.6,38.58
-10626,CAND_0027002,DevOps Engineer,9.1,38.58
-10627,CAND_0027566,Full Stack Developer,9.8,38.58
-10628,CAND_0032810,.NET Developer,8.8,38.58
-10629,CAND_0033928,Full Stack Developer,9.4,38.58
-10630,CAND_0035269,Cloud Engineer,9.1,38.58
-10631,CAND_0036821,.NET Developer,9.9,38.58
-10632,CAND_0037470,Cloud Engineer,9.1,38.58
-10633,CAND_0038510,Software Engineer,8.9,38.58
-10634,CAND_0039023,Software Engineer,9.7,38.58
-10635,CAND_0041374,Frontend Engineer,8.9,38.58
-10636,CAND_0041810,Software Engineer,9.0,38.58
-10637,CAND_0047933,Mobile Developer,8.7,38.58
-10638,CAND_0048027,Software Engineer,9.5,38.58
-10639,CAND_0067889,Frontend Engineer,9.9,38.58
-10640,CAND_0073366,Software Engineer,9.1,38.58
-10641,CAND_0074815,Software Engineer,8.9,38.58
-10642,CAND_0075815,Full Stack Developer,8.4,38.58
-10643,CAND_0081877,Software Engineer,9.1,38.58
-10644,CAND_0082281,QA Engineer,9.0,38.58
-10645,CAND_0086699,Java Developer,8.8,38.58
-10646,CAND_0087540,Software Engineer,8.0,38.58
-10647,CAND_0093099,Software Engineer,8.9,38.58
-10648,CAND_0096719,DevOps Engineer,9.1,38.58
-10649,CAND_0048271,Project Manager,7.8,38.56
+10617,CAND_0091908,Senior Software Engineer,2.1,38.59
+10618,CAND_0007422,Mobile Developer,8.9,38.58
+10619,CAND_0011748,Full Stack Developer,8.8,38.58
+10620,CAND_0016931,Full Stack Developer,8.4,38.58
+10621,CAND_0019701,DevOps Engineer,8.2,38.58
+10622,CAND_0021266,Full Stack Developer,8.3,38.58
+10623,CAND_0025544,Mobile Developer,9.3,38.58
+10624,CAND_0026380,Java Developer,9.6,38.58
+10625,CAND_0027002,DevOps Engineer,9.1,38.58
+10626,CAND_0027566,Full Stack Developer,9.8,38.58
+10627,CAND_0032810,.NET Developer,8.8,38.58
+10628,CAND_0033928,Full Stack Developer,9.4,38.58
+10629,CAND_0035269,Cloud Engineer,9.1,38.58
+10630,CAND_0036821,.NET Developer,9.9,38.58
+10631,CAND_0037470,Cloud Engineer,9.1,38.58
+10632,CAND_0038510,Software Engineer,8.9,38.58
+10633,CAND_0039023,Software Engineer,9.7,38.58
+10634,CAND_0041374,Frontend Engineer,8.9,38.58
+10635,CAND_0041810,Software Engineer,9.0,38.58
+10636,CAND_0047933,Mobile Developer,8.7,38.58
+10637,CAND_0048027,Software Engineer,9.5,38.58
+10638,CAND_0067889,Frontend Engineer,9.9,38.58
+10639,CAND_0073366,Software Engineer,9.1,38.58
+10640,CAND_0074815,Software Engineer,8.9,38.58
+10641,CAND_0075815,Full Stack Developer,8.4,38.58
+10642,CAND_0081877,Software Engineer,9.1,38.58
+10643,CAND_0082281,QA Engineer,9.0,38.58
+10644,CAND_0086699,Java Developer,8.8,38.58
+10645,CAND_0087540,Software Engineer,8.0,38.58
+10646,CAND_0093099,Software Engineer,8.9,38.58
+10647,CAND_0096719,DevOps Engineer,9.1,38.58
+10648,CAND_0048271,Project Manager,7.8,38.56
+10649,CAND_0030155,Data Scientist,5.6,38.545
 10650,CAND_0004098,Accountant,4.2,38.54
 10651,CAND_0021708,HR Manager,4.7,38.54
 10652,CAND_0026908,Operations Manager,3.8,38.54
@@ -11001,39 +11001,39 @@ rank,candidate_id,current_title,years_experience,final_score
 11000,CAND_0058217,Civil Engineer,12.8,37.58
 11001,CAND_0042805,Analytics Engineer,6.2,37.576
 11002,CAND_0095524,Project Manager,1.1,37.54
-11003,CAND_0038631,Backend Engineer,7.9,37.531
-11004,CAND_0005257,Senior Data Engineer,5.2,37.52
-11005,CAND_0005772,Senior Software Engineer,6.9,37.52
-11006,CAND_0007336,Senior Data Engineer,6.1,37.52
-11007,CAND_0007749,Senior Data Engineer,5.2,37.52
-11008,CAND_0007777,Backend Engineer,6.8,37.52
-11009,CAND_0014609,Data Engineer,7.4,37.52
-11010,CAND_0016148,Data Analyst,5.8,37.52
-11011,CAND_0018080,Senior Data Engineer,5.2,37.52
-11012,CAND_0022936,Senior Data Engineer,7.9,37.52
-11013,CAND_0025197,Analytics Engineer,7.3,37.52
-11014,CAND_0028460,Senior Data Engineer,5.1,37.52
-11015,CAND_0028785,Data Analyst,6.7,37.52
-11016,CAND_0031725,Data Analyst,7.3,37.52
-11017,CAND_0032028,Data Analyst,7.5,37.52
-11018,CAND_0033089,Data Analyst,6.6,37.52
-11019,CAND_0034576,Data Analyst,6.2,37.52
-11020,CAND_0040453,Backend Engineer,6.1,37.52
-11021,CAND_0040776,Backend Engineer,5.8,37.52
-11022,CAND_0045922,Data Analyst,5.3,37.52
-11023,CAND_0050022,Senior Data Engineer,7.5,37.52
-11024,CAND_0051841,Senior Software Engineer,5.7,37.52
-11025,CAND_0052485,Analytics Engineer,7.6,37.52
-11026,CAND_0055802,Data Engineer,5.8,37.52
-11027,CAND_0061239,Data Analyst,7.7,37.52
-11028,CAND_0062329,Backend Engineer,7.8,37.52
-11029,CAND_0066043,Software Engineer,3.2,37.52
-11030,CAND_0067101,Data Engineer,5.2,37.52
-11031,CAND_0071632,Data Engineer,6.2,37.52
-11032,CAND_0072569,Data Engineer,5.3,37.52
-11033,CAND_0092170,Senior Software Engineer,7.2,37.52
-11034,CAND_0066834,Analytics Engineer,6.5,37.507
-11035,CAND_0040209,Senior Software Engineer,7.7,37.493
+11003,CAND_0005257,Senior Data Engineer,5.2,37.52
+11004,CAND_0005772,Senior Software Engineer,6.9,37.52
+11005,CAND_0007336,Senior Data Engineer,6.1,37.52
+11006,CAND_0007749,Senior Data Engineer,5.2,37.52
+11007,CAND_0007777,Backend Engineer,6.8,37.52
+11008,CAND_0014609,Data Engineer,7.4,37.52
+11009,CAND_0016148,Data Analyst,5.8,37.52
+11010,CAND_0018080,Senior Data Engineer,5.2,37.52
+11011,CAND_0022936,Senior Data Engineer,7.9,37.52
+11012,CAND_0025197,Analytics Engineer,7.3,37.52
+11013,CAND_0028460,Senior Data Engineer,5.1,37.52
+11014,CAND_0028785,Data Analyst,6.7,37.52
+11015,CAND_0031725,Data Analyst,7.3,37.52
+11016,CAND_0032028,Data Analyst,7.5,37.52
+11017,CAND_0033089,Data Analyst,6.6,37.52
+11018,CAND_0034576,Data Analyst,6.2,37.52
+11019,CAND_0040453,Backend Engineer,6.1,37.52
+11020,CAND_0040776,Backend Engineer,5.8,37.52
+11021,CAND_0045922,Data Analyst,5.3,37.52
+11022,CAND_0050022,Senior Data Engineer,7.5,37.52
+11023,CAND_0051841,Senior Software Engineer,5.7,37.52
+11024,CAND_0052485,Analytics Engineer,7.6,37.52
+11025,CAND_0055802,Data Engineer,5.8,37.52
+11026,CAND_0061239,Data Analyst,7.7,37.52
+11027,CAND_0062329,Backend Engineer,7.8,37.52
+11028,CAND_0066043,Software Engineer,3.2,37.52
+11029,CAND_0067101,Data Engineer,5.2,37.52
+11030,CAND_0071632,Data Engineer,6.2,37.52
+11031,CAND_0072569,Data Engineer,5.3,37.52
+11032,CAND_0092170,Senior Software Engineer,7.2,37.52
+11033,CAND_0066834,Analytics Engineer,6.5,37.507
+11034,CAND_0040209,Senior Software Engineer,7.7,37.493
+11035,CAND_0038631,Backend Engineer,7.9,37.492
 11036,CAND_0058628,Data Analyst,7.1,37.483
 11037,CAND_0050398,Software Engineer,7.7,37.475
 11038,CAND_0087373,Data Engineer,5.9,37.475

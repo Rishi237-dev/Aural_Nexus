@@ -17,6 +17,7 @@ utils/pipeline_output.py.
 import json
 import logging
 import time
+from pathlib import Path
 
 from candidate.parser import load_candidates
 
@@ -39,7 +40,12 @@ from utils.submission_generator import generate_submission
 # Configuration
 # ------------------------------------------------------------------
 
-DATA_PATH    = "data/candidates.jsonl"
+DEFAULT_DATA_PATH = Path("data/candidates.jsonl")
+LARGE_DATA_PATHS = [
+    Path(r"D:\JBF_Test\data\candidates.jsonl"),
+    Path(r"D:\Documents\JBF_Test\data\candidates.jsonl"),
+]
+DATA_PATH = next((str(path) for path in LARGE_DATA_PATHS if path.exists()), str(DEFAULT_DATA_PATH))
 RUN_AUDIT    = False   # set True to run full dataset audit
 RUN_JD_AUDIT = False   # set True to run JD skill frequency audit
 TOP_N        = 20      # number of top-ranked candidates to print

@@ -90,7 +90,12 @@ st.markdown(
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 JD_PATH = PROJECT_ROOT / "jd" / "job_description.txt"
-CANDIDATES_PATH = PROJECT_ROOT / "data" / "candidates.jsonl"
+DEFAULT_CANDIDATES_PATH = PROJECT_ROOT / "data" / "candidates.jsonl"
+LARGE_CANDIDATES_PATHS = [
+    Path(r"D:\JBF_Test\data\candidates.jsonl"),
+    Path(r"D:\Documents\JBF_Test\data\candidates.jsonl"),
+]
+CANDIDATES_PATH = next((path for path in LARGE_CANDIDATES_PATHS if path.exists()), DEFAULT_CANDIDATES_PATH)
 
 if "screen" not in st.session_state:
     st.session_state.screen = "landing"
@@ -491,4 +496,5 @@ def main():
         render_results()
 
 
-main()
+if __name__ == "__main__":
+    main()
