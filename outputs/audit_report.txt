@@ -1,0 +1,118 @@
+============================================================
+
+TOP 20 TITLES
+Business Analyst: 5833
+HR Manager: 5830
+Mechanical Engineer: 5791
+Accountant: 5764
+Project Manager: 5754
+Customer Support: 5750
+Operations Manager: 5744
+Content Writer: 5727
+Sales Executive: 5713
+Civil Engineer: 5702
+Graphic Designer: 5689
+Marketing Manager: 5524
+Software Engineer: 3450
+Full Stack Developer: 2873
+Cloud Engineer: 2836
+Java Developer: 2809
+.NET Developer: 2788
+DevOps Engineer: 2787
+Mobile Developer: 2757
+Frontend Engineer: 2738
+
+TOP 50 SKILLS
+HTML: 12246
+Databricks: 12244
+Redux: 12222
+Terraform: 12187
+Angular: 12173
+Figma: 12157
+Salesforce CRM: 12157
+Vue.js: 12142
+Sales: 12138
+Accounting: 12136
+Agile: 12135
+Kafka: 12114
+Excel: 12109
+BigQuery: 12108
+CI/CD: 12108
+Project Management: 12106
+Airflow: 12105
+AWS: 12104
+Flask: 12104
+Scrum: 12083
+Illustrator: 12072
+Kubernetes: 12071
+ETL: 12068
+CSS: 12065
+Docker: 12062
+Next.js: 12058
+Apache Beam: 12054
+Java: 12049
+Go: 12049
+TypeScript: 12048
+JavaScript: 12047
+dbt: 12046
+REST APIs: 12040
+Spark: 12038
+Marketing: 12037
+Tally: 12030
+GraphQL: 12027
+Snowflake: 12027
+Webpack: 12026
+Six Sigma: 11991
+SEO: 11990
+SAP: 11989
+GCP: 11983
+PostgreSQL: 11983
+Rust: 11960
+Apache Flink: 11958
+gRPC: 11957
+Content Writing: 11948
+SQL: 11935
+Hadoop: 11931
+
+TOP 20 INDUSTRIES
+IT Services: 88077
+Software: 70746
+Manufacturing: 70541
+Conglomerate: 23556
+Paper Products: 23416
+Fintech: 6513
+Food Delivery: 5902
+E-commerce: 3644
+Consulting: 2871
+EdTech: 1384
+SaaS: 690
+AI/ML: 597
+AdTech: 376
+Transportation: 364
+Insurance Tech: 355
+HealthTech: 339
+Gaming: 329
+HealthTech AI: 132
+Conversational AI: 124
+AI Services: 81
+
+TOP COUNTRIES
+India: 75113
+USA: 9978
+Australia: 2579
+Canada: 2506
+UK: 2472
+Germany: 2469
+Singapore: 2453
+UAE: 2430
+
+============================================================
+
+Candidates: 100000
+Open To Work %: 35.34
+Avg Experience: 7.17
+Avg Recruiter Response Rate: 0.437
+Avg Github Score: 29.03
+Avg Notice Period: 87.39
+
+============================================================

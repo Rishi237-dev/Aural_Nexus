@@ -1,0 +1,102 @@
+# Redrob Hackathon — Submission Metadata Template
+#
+# Copy this file to your repo root as `submission_metadata.yaml` and fill it in.
+# The fields here should match what you submit via the portal at upload time.
+# Stage 3 review uses this file to verify your portal metadata.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Aural_Nexus"  # Used in leaderboard and announcements
+
+primary_contact:
+  name: "Kriti Krishna Panda"
+  email: "kritikrishnapanda@gmail.com"   # Used for all organizer communication
+  phone: "+91-8917349964"        # Used for top-50 / top-10 outreach
+
+team_members:
+  - name: "Anuj Panda"
+    email: "anujpandanda057@gmail.com"
+    role: "Data Engineer"  
+  
+  - name: "Kriti Krishna Panda"
+    email: "kritikrishnapanda@gmail.com"
+    role: "Team Lead"
+ 
+  # Add more members as needed; solo participants list just one member
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/Code-Kriti/Aural_Nexus"
+# Required. Must be reachable. Private repos OK if you can grant organizer
+# access at Stage 3 (the email to add will be communicated then).
+
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+# Required. A working hosted environment where the ranker can be run on a small
+# candidate sample. See Section 10.5 of submission_spec.md for acceptable
+# platforms (HuggingFace Spaces, Streamlit Cloud, Replit, Colab, Docker, Binder).
+
+reproduce_command: "python main.py"
+# The single command that produces submission.csv from candidates.jsonl.
+# Should run end-to-end within 5 minutes on CPU with 16GB RAM and no network.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows 11 (Local Machine)"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
+  cpu_cores: 12                                  # Number of CPU cores used
+  ram_gb: 16                                    # Available RAM in GB
+  python_version: "3.12.4"                      # python --version
+  os: "Windows 11"                              # Or "Ubuntu 22.04 LTS", etc.
+  uses_gpu_for_inference: false                 # Must be false — see compute constraints
+  has_network_during_ranking: false             # Must be false — no API calls during ranking
+  pre_computation_required: true               # true if you pre-compute embeddings or train models offline
+  pre_computation_time_minutes: 29              # Approximate, if applicable
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+# Transparency only — declared use is NOT penalized. Be honest. Stage 5 interview
+# may verify these declarations against your code; declarations that contradict
+# your code or your interview are flagged.
+ai_tools_used:
+  - "Claude"        # e.g. for architecture discussion, code review
+  - "Chat GPT Codex"  # e.g. for autocomplete
+  - "Chat GPT"       # for debugging, refactoring, or other code assistance
+  - "Anti Gravity"  # for code generation
+  - "Google Gemini" # for R&D
+  # Other options: "ChatGPT", "Cursor", "Gemini", "Codeium", "Other", "None"
+
+ai_usage_summary: |
+  Briefly describe how AI tools were used. Examples:
+  - "Used Claude for code review and architectural discussion. "
+  - "Used ChatGPT to debug Python issues and Cursor for refactoring."
+  - "Used Anti Gravity and Codex for code generation."
+  - "Used Google Gemini for R&D and project development."
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+  ≤200 word summary of your approach. Strongly recommended.
+
+We built a four-stage AI recruitment pipeline capable of identifying the most relevant candidates from a pool of 100,000 profiles for a given Job Description.
+Stage 1: Candidate Gate filters the raw pool to approximately 85,000 candidates using a conservative, recall-first philosophy. Six rule-based checkers evaluate experience range, profile completeness, hard JD constraints, technology overlap and explicit negative requirements. The gate rejects only when there is a clear, JD-backed reason — "never on ambiguity". "False negatives are treated as more costly than false positives."
+
+Stage 2: Hybrid Retrieval Engine reduces 85,000 candidates to a high-recall shortlist of 3,000 using two independent retrieval signals. Candidate profiles are transformed into semantic documents (embedded offline using E5) and lexical documents (optimized for BM25 exact matching). A FAISS IndexFlatIP index powers dense retrieval; BM25Okapi powers lexical retrieval. Both ranked lists are fused using Reciprocal Rank Fusion with no manual weight tuning. A bounded Redrob confidence multiplier [0.85–1.05] applies a small availability adjustment without overriding semantic relevance.
+
+Stage 3: The output — 3,000 candidates with full retrieval score breakdowns — is handed to a downstream ranking engine that applies evidence scoring, consistency checking, and career progression analysis to produce the final list. "At this stage precision is our biggest weapon with which we only target for the True Positives"
+
+Stage 4: We derive a final formulae which enable us to take all the previous metrices as weighted input and derive the final , the best list of 100 candidates who match the JD in the best possible way and with proper analysiss of various track records.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true        # I have read submission_spec.md in full
+  code_is_original_work: true       # My code is my team's original work (using AI as a tool is fine)
+  no_collusion: true                # I have not coordinated my submission with other teams
+  honeypot_check_done: false        # OPTIONAL — set true if you explicitly checked for honeypots in your ranking
+  reproduction_tested: true         # I have tested that my reproduce_command runs end-to-end

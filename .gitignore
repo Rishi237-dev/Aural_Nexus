@@ -1,0 +1,7 @@
+﻿.venv/
+retrieval/artifacts/
+
+# Large generated/data files (exceed GitHub 100MB limit)
+data/candidates.jsonl
+candidate/parsed_candidates.json
+retrieval/filtered_candidates.jsonl

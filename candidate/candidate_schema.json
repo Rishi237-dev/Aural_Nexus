@@ -1,0 +1,73 @@
+{
+  "dataclass": "Candidate",
+  "fields": [
+    {
+      "name": "candidate_id",
+      "type": "str"
+    },
+    {
+      "name": "anonymized_name",
+      "type": "str"
+    },
+    {
+      "name": "headline",
+      "type": "str"
+    },
+    {
+      "name": "summary",
+      "type": "str"
+    },
+    {
+      "name": "location",
+      "type": "str"
+    },
+    {
+      "name": "country",
+      "type": "str"
+    },
+    {
+      "name": "years_experience",
+      "type": "float"
+    },
+    {
+      "name": "current_title",
+      "type": "str"
+    },
+    {
+      "name": "current_company",
+      "type": "str"
+    },
+    {
+      "name": "current_company_size",
+      "type": "str"
+    },
+    {
+      "name": "current_industry",
+      "type": "str"
+    },
+    {
+      "name": "skills",
+      "type": "list"
+    },
+    {
+      "name": "career_history",
+      "type": "list"
+    },
+    {
+      "name": "education",
+      "type": "list"
+    },
+    {
+      "name": "certifications",
+      "type": "list"
+    },
+    {
+      "name": "languages",
+      "type": "list"
+    },
+    {
+      "name": "signals",
+      "type": "dict"
+    }
+  ]
+}

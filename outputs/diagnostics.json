@@ -1,0 +1,15 @@
+{
+  "candidate_count": 100000,
+  "processed_candidates": 100000,
+  "skipped_candidates": 0,
+  "highest_score": 98.74,
+  "lowest_score": 10.61,
+  "average_score": 29.1223,
+  "median_score": 28.18,
+  "average_consistency": 41.9865,
+  "average_credibility": 0.9884,
+  "average_years_experience": 7.1663,
+  "candidates_with_retrieval_evidence": 12473,
+  "candidates_with_ranking_evidence": 3429,
+  "candidates_with_vector_db_evidence": 13816
+}

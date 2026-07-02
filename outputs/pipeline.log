@@ -1,0 +1,17 @@
+2026-07-01 21:33:01  INFO      Pipeline started.
+2026-07-01 21:33:01  INFO      Parsing Job Description → jd/parsed_job_description.json
+2026-07-01 21:33:01  INFO      Job Description parsed and written.
+2026-07-01 21:33:01  INFO      Retrieval pipeline started.
+2026-07-01 21:33:09  INFO      Retrieval pipeline completed.
+2026-07-01 21:33:09  INFO      Loading retrieval scores from retrieval/artifacts/retrieval_results.json
+2026-07-01 21:33:09  INFO      Retrieval lookup built — 3000 entries  min=28.585383  max=198.489322.
+2026-07-01 21:33:46  INFO      Dataset loaded: data/candidates.jsonl — 100000 candidates.
+2026-07-01 21:33:46  INFO      Ranking started — processing 100000 candidates.
+2026-07-01 21:34:10  INFO      Ranking completed — processed: 100000  skipped: 0.
+2026-07-01 21:34:11  INFO      Diagnostics written → outputs\diagnostics.json
+2026-07-01 21:34:11  INFO      Run summary written → outputs\run_summary.json
+2026-07-01 21:34:11  INFO      Ranked candidates CSV written → outputs\ranked_candidates.csv  (100000 rows)
+2026-07-01 21:34:11  INFO      Output generation completed.
+2026-07-01 21:34:11  INFO      Submission generation started — 100000 candidates available.
+2026-07-01 21:34:11  INFO      Submission written — 100 rows -> outputs\submission.csv
+2026-07-01 21:34:11  INFO      Pipeline finished — 61.83s  (100000 candidates).
