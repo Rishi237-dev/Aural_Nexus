@@ -110,6 +110,8 @@ if "pipeline_output" not in st.session_state:
     st.session_state.pipeline_output = ""
 if "run_summary" not in st.session_state:
     st.session_state.run_summary = {}
+if "pipeline_started" not in st.session_state:
+    st.session_state.pipeline_started = False
 
 
 def validate_upload(uploaded_file, expected_types):
@@ -303,7 +305,18 @@ def render_landing():
     if st.button("Start", use_container_width=True):
         st.session_state.screen = "upload"
         st.session_state.processing = False
+        st.session_state.pipeline_started = False
         st.session_state.results_ready = False
+        st.session_state.pipeline_error = None
+        st.session_state.pipeline_output = ""
+        st.rerun()
+
+    st.write("")
+    if st.button("View Sample Results", use_container_width=True):
+        st.session_state.screen = "results"
+        st.session_state.processing = False
+        st.session_state.pipeline_started = False
+        st.session_state.results_ready = True
         st.session_state.pipeline_error = None
         st.session_state.pipeline_output = ""
         st.rerun()
@@ -347,6 +360,7 @@ def render_upload():
     if st.button("Start Analysis", disabled=not can_start, use_container_width=True):
         st.session_state.screen = "processing"
         st.session_state.processing = True
+        st.session_state.pipeline_started = False
         st.session_state.results_ready = False
         st.session_state.pipeline_error = None
         st.session_state.pipeline_output = ""
@@ -357,6 +371,22 @@ def render_upload():
 def render_processing():
     st.markdown("<div class='glass-card'><h2 style='margin-bottom:0.2rem;'>Processing Pipeline</h2><p style='color:#cbd5e1;'>The analysis is running. Please wait while the platform executes the existing backend pipeline.</p></div>", unsafe_allow_html=True)
     st.write("")
+
+    if st.session_state.pipeline_started:
+        if st.session_state.pipeline_error:
+            st.error(st.session_state.pipeline_error)
+        elif st.session_state.results_ready:
+            st.success("Results are ready.")
+        if st.button("Back to Upload", use_container_width=True):
+            st.session_state.screen = "upload"
+            st.session_state.results_ready = False
+            st.session_state.pipeline_error = None
+            st.session_state.pipeline_output = ""
+            st.session_state.pipeline_started = False
+            st.rerun()
+        return
+
+    st.session_state.pipeline_started = True
 
     progress_bar = st.progress(0)
     status_placeholder = st.empty()
@@ -386,23 +416,12 @@ def render_processing():
 
         if (PROJECT_ROOT / "outputs" / "run_summary.json").exists():
             st.session_state.run_summary = json.loads((PROJECT_ROOT / "outputs" / "run_summary.json").read_text(encoding="utf-8"))
+        st.rerun()
     except Exception as exc:  # pragma: no cover - runtime path
         st.session_state.pipeline_error = str(exc)
         st.session_state.results_ready = False
         st.session_state.screen = "upload"
         st.session_state.processing = False
-
-    st.success("Pipeline execution completed." if not st.session_state.pipeline_error else "Pipeline execution failed.")
-    if st.session_state.pipeline_error:
-        st.error(st.session_state.pipeline_error)
-    else:
-        st.info("Results are ready. Review the generated outputs below.")
-
-    if st.button("Back to Upload", use_container_width=True):
-        st.session_state.screen = "upload"
-        st.session_state.results_ready = False
-        st.session_state.pipeline_error = None
-        st.session_state.pipeline_output = ""
         st.rerun()
 
 
@@ -448,6 +467,16 @@ def render_results():
         st.write("")
         with st.expander("Pipeline log"):
             st.code(st.session_state.pipeline_output, language="text")
+
+    st.write("")
+    if st.button("Run New Analysis", use_container_width=True):
+        st.session_state.screen = "upload"
+        st.session_state.processing = False
+        st.session_state.pipeline_started = False
+        st.session_state.results_ready = False
+        st.session_state.pipeline_error = None
+        st.session_state.pipeline_output = ""
+        st.rerun()
 
 
 def main():

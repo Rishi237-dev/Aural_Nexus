@@ -5,3 +5,4 @@ retrieval/artifacts/
 data/candidates.jsonl
 candidate/parsed_candidates.json
 retrieval/filtered_candidates.jsonl
+data/test_candidates.jsonl

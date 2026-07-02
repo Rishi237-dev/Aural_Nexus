@@ -5,9 +5,10 @@ scikit-learn
 pyyaml
 python-dateutil
 joblib
-matplotlib
-seaborn
-ipykernel
 streamlit
 openpyxl
 pypdf
+sentence-transformers
+faiss-cpu
+rank-bm25
+torch
