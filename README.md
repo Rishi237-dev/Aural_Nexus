@@ -628,24 +628,24 @@ Measured on 100,000 candidates (NVIDIA RTX 3050 6GB Laptop GPU, cached embedding
 - **Fixed**: `retrieval/run_retrieval.py` default JD path corrected from project root to `jd/parsed_job_description.json`
 - **Performance**: End-to-end `python main.py` runtime ~45 s on 100k candidates with GPU + cached embeddings/indexes
 
-### v1.2.0 â€” Reasoning Generator & Submission Generator
+### v1.2.0 Reasoning Generator & Submission Generator
 
-- **New module**: `ranking/reasoning_generator.py` â€” deterministic, rank-aware 1â€“2 sentence reasoning per candidate; dispatch-table architecture; four rank bands; no randomness
-- **New module**: `utils/submission_generator.py` â€” spec-compliant top-100 competition CSV; monotonicity violation raises `ValueError`; tie-breaking applied before slice
-- **New file**: `validate_submission.py` â€” official competition validator
-- **Updated**: `main.py` â€” submission generation integrated as a final pipeline step
+- **New module**: `ranking/reasoning_generator.py` deterministic, rank-aware sentence reasoning per candidate; dispatch-table architecture; four rank bands; no randomness
+- **New module**: `utils/submission_generator.py` spec-compliant top-100 competition CSV; monotonicity violation raises `ValueError`; tie-breaking applied before slice
+- **New file**: `validate_submission.py` official competition validator
+- **Updated**: `main.py` submission generation integrated as a final pipeline step
 
-### v1.1.0 â€” JD Parser Refinements
+### v1.1.0 JD Parser Refinements
 
-- **New module**: `jd/jd_parser.py` â€” regex/heuristic JD parser with CLI entry point
+- **New module**: `jd/jd_parser.py` regex/heuristic JD parser with CLI entry point
 - Section detection for conventional and unconventional headings
 - Expanded technology vocabulary and concept keyword extraction
 - Hyphen-normalised keyword deduplication and experience range parsing
 
-### v1.0.0 â€” Initial Release
+### v1.0.0 Initial Release
 
 - Deterministic keyword-evidence scoring pipeline
-- Additive 0â€“100 scoring model with six components
+- Additive 100 scoring model with six components
 - Evidence localisation, credibility assessment, consistency engine
 - Dataset and JD skill audit modules
 - Structured output: diagnostics.json, run_summary.json, ranked_candidates.csv, pipeline.log
